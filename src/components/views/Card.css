@@ -1,0 +1,78 @@
+
+.accordian {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordian p {
+  padding: 0;
+  margin: .5em;
+}
+
+
+
+.expand-btn:hover,
+.active {
+  background-color: #cdc;
+} */
+
+
+.accordian__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+.expand-btn {
+  position: absolute;
+  top: 2.2rem;
+  right: 2.5rem;
+  transition: transorm 0.6s ease;
+  border: none;
+  cursor: pointer;
+  padding: .4rem .5rem;
+  border-radius: 79px;
+  border: none;
+  outline: none;
+}
+
+.expand-btn:focus {
+outline: none;
+}
+
+
+
+.accordian__content {
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  
+}
+
+.student-card {
+  display:flex;
+  flex-direction: row;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0;
+  border-bottom: .2rem solid grey;
+  width: 30rem;
+  color: black;
+  width: 100%;
+  background: linear-gradient(to right, rgb(238, 221, 221) -6%, #fad4c0 100%);
+  position: relative;
+}
+
+.student-card__img {
+  width: auto;
+  height: 9rem;
+  border: 3px solid rgb(97, 68, 61);
+  border-radius: 75px;
+  margin-right: 2.5rem;
+  margin-top: .9rem;
+  margin-left: .5rem;
+}
+
+input  {
+  border-radius: 3px;
+}
